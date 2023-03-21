@@ -1,23 +1,12 @@
-**DEVELOPER INSTRUCTIONS:**
-
-- Update module name in go.mod
-- Update dependencies to latest versions
-- Update name and year in license
-- Customize configuration and Caddyfile parsing
-- Update godocs / comments (especially provider name and nuances)
-- Update README and remove this section
-
----
-
-\<PROVIDER\> module for Caddy
+Hosttech module for Caddy
 ===========================
 
-This package contains a DNS provider module for [Caddy](https://github.com/caddyserver/caddy). It can be used to manage DNS records with \<PROVIDER\>.
+This package contains a DNS provider module for [Caddy](https://github.com/caddyserver/caddy). It can be used to manage DNS records with Hosttech DNS server(s).
 
 ## Caddy module name
 
 ```
-dns.providers.provider_name
+dns.providers.hosttech
 ```
 
 ## Config examples
@@ -30,7 +19,7 @@ To use this module for the ACME DNS challenge, [configure the ACME issuer in you
 	"challenges": {
 		"dns": {
 			"provider": {
-				"name": "provider_name",
+				"name": "hosttech",
 				"api_token": "YOUR_PROVIDER_API_TOKEN"
 			}
 		}
@@ -41,15 +30,8 @@ To use this module for the ACME DNS challenge, [configure the ACME issuer in you
 or with the Caddyfile:
 
 ```
-# globally
-{
-	acme_dns provider_name ...
-}
-```
-
-```
 # one site
 tls {
-	dns provider_name ...
+	dns hosttech {"YOUR_PROVIDER_API_TOKEN"}
 }
 ```
