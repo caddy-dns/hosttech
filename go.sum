@@ -880,6 +880,8 @@ github.com/libdns/hosttech v1.0.1 h1:O4lcB2mNmXmnUWG1BVuv7qLW4mwIjefqi7deVmfzLeE
 github.com/libdns/hosttech v1.0.1/go.mod h1:iSOqrhDzfD/Z/xL2oBjrx0UpSLF+5odygzWjmp4i/Kg=
 github.com/libdns/hosttech v1.0.2 h1:BaCKKLUuEzW3uNv3iWYSDD3/MOiHl9QV60IOy+3Suak=
 github.com/libdns/hosttech v1.0.2/go.mod h1:GAz45s6aoC6iFv1+WhCiRm16asHRl+TmyY4fmae4qC8=
+github.com/libdns/hosttech v1.0.3 h1:KhRSy4iTyofg1aQNhueu4p8adLoVIQahve9fIfWTDyU=
+github.com/libdns/hosttech v1.0.3/go.mod h1:969PlpvgsV0coK7anEl/jCa6yejzHrGzZ5i1ouK1yKQ=
 github.com/libdns/libdns v0.2.1 h1:Wu59T7wSHRgtA0cfxC+n1c/e+O3upJGWytknkmFEDis=
 github.com/libdns/libdns v0.2.1/go.mod h1:yQCXzk1lEZmmCPa857bnk4TsOiqYasqpyOEeSObbb40=
 github.com/lightstep/lightstep-tracer-common/golang/gogo v0.0.0-20190605223551-bc2310a04743/go.mod h1:qklhhLq1aX+mtWk9cPHPzaBjWImj5ULL6C7HFJtXQMM=
@@ -1155,6 +1157,7 @@ github.com/stretchr/testify v1.7.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/
 github.com/stretchr/testify v1.8.0/go.mod h1:yNjHg4UonilssWZ8iaSj1OCr/vHnekPRkoO+kdMU+MU=
 github.com/stretchr/testify v1.8.1 h1:w7B6lhMri9wdJUVmEZPGGhZzrYTPvgJArz7wNPgYKsk=
 github.com/stretchr/testify v1.8.1/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o6fzry7u4=
+github.com/stretchr/testify v1.8.2/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o6fzry7u4=
 github.com/tailscale/tscert v0.0.0-20230124224810-c6dc1f4049b2/go.mod h1:kNGUQ3VESx3VZwRwA9MSCUegIl6+saPL8Noq82ozCaU=
 github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07/go.mod h1:kDXzergiv9cbyO7IOYJZWg1U88JhDg3PB6klq9Hg2pA=
 github.com/thales-e-security/pool v0.0.2/go.mod h1:qtpMm2+thHtqhLzTwgDBj/OuNnMpupY8mv0Phz0gjhU=
